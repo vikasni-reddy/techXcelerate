@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://i.postimg.cc/KYMJsHDv/Whats-App-Image-2024-07-25-at-18-54-10-1c5c3317.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.content:hover {
+    transform: scale(1.03);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.login-form input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.login-form input:focus {
+    transform: scale(1.03);
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+}
+
+.password-container input {
+    flex: 1;
+}
+
+.eye-icon {
+    cursor: pointer;
+    margin-left: -30px;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+a:hover {
+    color: #23527c;
+}
+
+.account {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
